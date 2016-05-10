@@ -1,0 +1,9 @@
+syntax = "proto3"
+
+import (
+    "github.com/micro/micro/api/proto/api.proto"
+)
+
+service Factorial {
+    rcp Read(Request) returns (Response) {}
+}
